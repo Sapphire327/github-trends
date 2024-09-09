@@ -1,0 +1,42 @@
+.itemWrapper{
+    display: flex;
+    transition: 0s 1s ease-in-out;
+}
+.item{
+    background-color: blueviolet;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.author{
+    font-size: 20px;
+}
+.authorName{
+
+}
+.avatar{
+    height: 200px;
+    margin-bottom: 10px;
+}
+.repositoryRow{
+    display: flex;
+    font-size: 20px;
+    grid-gap: 10px;
+}
+.repositoryInfo{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+
+}
+.repositoryLabel{
+    flex: 1;
+}
+.repositoryValue{
+    flex: 4;
+
+}
+.stars{
+    font-size: 20px;
+}

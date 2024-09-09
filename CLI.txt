@@ -1,0 +1,10 @@
+Get a repository by name or ID
+http://localhost:4200/api/getBySlug?slug={your id or name}
+
+Get all repositories
+http://localhost:4200/api/getAll
+
+Start sync with GitHub;
+http://localhost:4200/api/updateList
+
+

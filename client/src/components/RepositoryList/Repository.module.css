@@ -1,0 +1,45 @@
+.repositoryName{
+    font-size: 20px;
+}
+.author{
+    flex: 0 0 25%;
+}
+.repository{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    gap: 50px;
+}
+.repositoryListWrapper{
+    display: flex;
+    justify-content: center;
+}
+.repositoryLinkWrapper{
+    display: flex;
+    align-items:flex-end;
+}
+.repositoryDescription{
+    font-size: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.repositoryList{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    max-width: 600px;
+}
+.avatar{
+    height: 100px;
+}
+.authorName{
+    font-size: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.repositoryInfo{
+    flex: 1;
+}

@@ -1,0 +1,21 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.show{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
